@@ -116,7 +116,7 @@ footer{
 }
 .iconescontato
 {
-    height: 4vh;
+    height: auto;
     width: 2vw;
 }
 .iconescontato:hover
