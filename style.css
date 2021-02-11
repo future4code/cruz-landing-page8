@@ -82,6 +82,99 @@ background-color: rgb(81,38,14);
     background-color: rgb(255, 255, 255);
 }
 
+/* INICIO CSS KETHREEN */
+
+#container-mercado{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:10vw ;
+    padding-right: 10vw;
+    color:rgb(223, 209, 209);
+}
+
+#opcao3 h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding: 10%;
+}
+
+#opcao3 h1 {
+    color:rgb(223, 209, 209);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    
+}
+
+#opcao4 h1{
+    color:rgb(78, 78, 78);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    padding-bottom: 5%;
+}
+#container-como-comprar{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:10vw ;
+    padding-right: 10vw;
+}
+.comprar{
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.como-comprar img:hover,
+.como-comprar img:focus {
+  transform: translateX(5%) scale(1.2);
+  
+}
+.como-comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 100%;
+    border: none;
+    margin: auto;
+    width: 12%;
+    height: 5vh;
+    border-radius: 20px;
+    margin-top: 14px;
+    color: rgb(236, 233, 231);
+    background-color: #6b4a3d;
+    cursor: pointer;
+} 
+input[type="submit"]:hover{
+    background-color: #b69289;
+    transition: 1.5s;
+}
+
+/* FIM CSS KETHREEN */
+
 /*Footer*/
 footer{
     background-color: rgb(43, 43, 43);
