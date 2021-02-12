@@ -25,7 +25,6 @@ header{
     border-bottom: 2px solid black;
     max-width: 100vw;
 }
-
 #containerlogo{
     padding-right: 2vw;
     display: flex;
@@ -102,6 +101,7 @@ header{
     padding-bottom: 2vh;
 }
 
+
 .containersmain:nth-child(odd) {
 background-color: rgb(81,38,14);
 }
@@ -109,6 +109,7 @@ background-color: rgb(81,38,14);
 .containersmain:nth-child(even){
     background-color: rgb(255, 255, 255);
 }
+
 
 .titulos{
     width: 100%;
@@ -120,8 +121,10 @@ background-color: rgb(81,38,14);
     color: rgb(177, 176, 176);
     font-weight: bold;
     font-size:calc(24px + 1vw);
+
 }
 
+    
 .titulos2{
     color: rgb(81,38,14);
     display: flex;
@@ -168,19 +171,22 @@ background-color: rgb(81,38,14);
 video {
     height: auto;
     border-radius: 5%;
-}
+  }
 
 #logo-quemsomos{
     width: 10vw;
     height: auto;
     border-radius: 5%;
+
 }
 
 .container-corpoimagens{
     display: flex; 
     box-sizing: border-box;
     overflow: hidden;
+
 }
+
 
 .container-imagens{
     width: 50%;
@@ -262,6 +268,7 @@ video {
     justify-content: space-between;
     align-content: center;
     width: 100%;
+
 }
 
 .comprar{
@@ -308,6 +315,7 @@ input[type="submit"]:hover{
     width: 10vw;
     text-align: center;
     margin-bottom: 3vh;
+    
 }
 
 /*CONTATO*/
@@ -330,7 +338,7 @@ input[type=text], textarea {
       margin-top: 6px; 
       margin-bottom: 20px;
       resize:none;
-}
+    }
 
 /*Footer*/
 
