@@ -31,12 +31,14 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 #imagemlogo{
     width: calc(65px + 2vw);
     height: auto;
     margin: 0;
     display: flex;
 }
+
 #containernavegacao{
     display: flex;
     justify-content: center;
@@ -44,6 +46,7 @@ header{
     margin: 0;
     flex-wrap: wrap;
 }
+
 #navegacao-topo{
     list-style: none;
     display: flex;
@@ -54,26 +57,31 @@ header{
     text-decoration: none;
     color: rgb(131, 129, 129);
 }
+
 .opcoes-menu:hover{
     color: rgb(81,38,14);
     cursor: pointer;
     text-decoration: none;
 }
+
 #containerlogin{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
 }
+
 #textologin{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #textologin:hover{
     text-decoration: underline;
     color: rgb(81,38,14);
 }
+
 #imagemlogin{
     width: calc(15px + 2vw);
     height: 1em;
@@ -92,12 +100,17 @@ header{
     flex-direction: column;
     padding-bottom: 2vh;
 }
+
+
 .containersmain:nth-child(odd) {
 background-color: rgb(81,38,14);
 }
+
 .containersmain:nth-child(even){
     background-color: rgb(255, 255, 255);
 }
+
+
 .titulos{
     width: 100%;
     display: flex;
@@ -108,8 +121,10 @@ background-color: rgb(81,38,14);
     color: rgb(177, 176, 176);
     font-weight: bold;
     font-size:calc(24px + 1vw);
-    }
 
+}
+
+    
 .titulos2{
     color: rgb(81,38,14);
     display: flex;
@@ -129,6 +144,7 @@ background-color: rgb(81,38,14);
     flex:1;
 
 }
+
 .container-texto{
     width: 50%;
     display: flex;
@@ -139,9 +155,11 @@ background-color: rgb(81,38,14);
     font-size:calc(12px + 1vw);
     color: rgb(231, 231, 231);
 }
+
 #slogan{
     font-weight: bold;
 }
+
 #container-video{
     width: 50%;
     display: flex;
@@ -149,33 +167,39 @@ background-color: rgb(81,38,14);
     align-items: center;
     padding-left: 2vw;
 }
+
 video {
     height: auto;
     border-radius: 5%;
   }
+
 #logo-quemsomos{
     width: 10vw;
     height: auto;
     border-radius: 5%;
 
-
 }
+
 .container-corpoimagens{
     display: flex; 
     box-sizing: border-box;
     overflow: hidden;
 
 }
+
+
 .container-imagens{
     width: 50%;
     padding-left: 2vw;
     padding-right: 2vw;
     margin-bottom: 2vh;
 }
+
 .imagensservicos{
     width: 100%;
     height: 100%;
 }
+
 .imagensservicos:hover{
     opacity: 50%;
     transition: 0.5s;
@@ -198,9 +222,11 @@ video {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .botao-voltar:hover{
     background-color: rgb(155, 75, 32);
 }
+
 .botao-voltar2{
     background-color:  rgb(180, 180, 180);
     color: rgb(0, 0, 0);
@@ -210,6 +236,7 @@ video {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .botao-voltar2:hover{
     background-color: rgb(255, 255, 255);
 }
@@ -228,12 +255,14 @@ video {
     padding-left: 2vw;
     padding-right: 2vw;
 }
+
 #imagensmercado{
     display: flex;
     justify-content: space-between;
     width: 100%;
     font-size:calc(12px + 0.5vw);
 }
+
 #textomercado{
     display: flex;
     justify-content: space-between;
@@ -241,12 +270,14 @@ video {
     width: 100%;
 
 }
+
 .comprar{
     border-radius:50%;
     width: calc(15px + 10vw);
     height: auto;
     margin-bottom: 2vh;
 }
+
 .textocolunamercado{
     display: flex;
     flex-direction: column;
@@ -268,10 +299,12 @@ input[type="submit"]{
     background-color: #6b4a3d;
     cursor: pointer;
 } 
+
 input[type="submit"]:hover{
     background-color: #b69289;
     transition: 1.5s;
 }
+
 /* MARMITA */
 
 .como-comprar{
@@ -286,13 +319,16 @@ input[type="submit"]:hover{
 }
 
 /*CONTATO*/
+
 #contato{
     padding-left: 2vw;
     padding-right: 2vw;
 }
+
 #formulariocontato{
     width: 100%;
 }
+
 input[type=text], textarea {
     width: 100%;
       padding: 5px;
@@ -305,6 +341,7 @@ input[type=text], textarea {
     }
 
 /*Footer*/
+
 footer{
     background-color: rgb(43, 43, 43);
     height: 10vh;
@@ -318,16 +355,19 @@ footer{
     border-top: 2px solid black;
     overflow: hidden;
 }
+
 #containeresquerda{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #containerdireita{
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
+
 .iconescontato
 {
     height: auto;
@@ -338,12 +378,14 @@ footer{
     justify-content: center;
     
 }
+
 .iconescontato:hover
 {
     background-color: rgb(128, 126, 126);
     border-radius: 15%;
     
 }
+
 /* RESPONSIVIDADE CELULAR*/
 
 @media screen and (min-width: 320px) and (max-width: 420px) {
